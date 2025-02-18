@@ -1,4 +1,6 @@
 .buttonRow {
+  /*This element houses absolutely-positioned vissually-hidden labals. We want them to be contained by this scroll container to avoid introducing a horizontal scroll.*/
+  position: relative;
   overflow: auto;
   white-space: nowrap;
   margin-left: -22px;
